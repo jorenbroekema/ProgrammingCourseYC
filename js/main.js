@@ -1,4 +1,4 @@
-fetch('./whatsapp-data/example.json').then((response) => {
+fetch('../assets/whatsapp-data/example.json').then((response) => {
   return response.json();
 }).then((json) => {
   const dataByUser = sortMessagesByUser(json.data);
@@ -58,4 +58,3 @@ const renderDoughtnut = (data) => {
     ...doughnut
   });
 }
-

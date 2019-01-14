@@ -174,10 +174,10 @@ header {
   transition: all .2s ease-in-out;
 }
 
-#yc { background-image: url('./projects/yc-internship.jpg') }
-#cooking { background-image: url('./projects/cooking.jpg') }
-#art { background-image: url('./projects/art.gif') }
-#ing { background-image: url('./projects/ing.jpg') }
+#yc { background-image: url('../assets/projects/yc-internship.jpg') }
+#cooking { background-image: url('../assets/projects/cooking.jpg') }
+#art { background-image: url('../assets/projects/art.gif') }
+#ing { background-image: url('../assets/projects/ing.jpg') }
 
 .project:hover {
   cursor: pointer;
