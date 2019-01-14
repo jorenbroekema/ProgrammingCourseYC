@@ -1,4 +1,8 @@
 ## How to run
+Just open index.html in your browser.
+
+If you want the WhatsApp data visualization to work properly, take the following steps:
+
 Install dependencies
 ```sh
 npm install
