@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+  <script src="./node_modules/chart.js/dist/Chart.js"></script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <ul class="nav-list">
+        <li class="list-item">
+          <a class="page-link" href="./index.html">About me</a>
+        </li>
+        <li class="list-item">
+          <a class="page-link" href="./work.html">Work</a>
+        </li>
+        <li class="list-item">
+          <a class="page-link" href="./data.html">Data</a>
+        </li>
+      </ul>
+      <div class="logo">
+        <span>JB</span>
+      </div>
+      <div class="socials">
+        <a href="#"><img src="./socials/linkedin.png"></a>
+        <a href="#"><img src="./socials/facebook.png"></a>
+        <a href="#"><img src="./socials/twitter.png"></a>
+      </div>
+    </header>
+    <h2 class="chart-heading">WhatsApp Data Visualized!</h2>
+    <div class="chart-wrapper">
+      <canvas id="myChart" height="500" width="500" ></canvas>
+    </div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
