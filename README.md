@@ -5,7 +5,7 @@ If you want the WhatsApp data visualization to work properly, take the following
 
 Install dependencies
 ```sh
-npm install
+yarn
 ```
 
 Download your whatsapp data
@@ -19,5 +19,5 @@ Make sure the fetch in main.js reflects the filename. By default it is set to fe
 
 Run the simple web server
 ```sh
-npm run start
+yarn start
 ```
