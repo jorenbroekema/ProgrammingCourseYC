@@ -1,17 +1,12 @@
 {
-  "name": "whatsapp-data",
+  "name": "zero-2-hero",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "author": "Joren Broekema",
+  "license": "ISC",
   "scripts": {
     "start": "http-server -o -c-1"
   },
   "devDependencies": {
     "http-server": "^0.11.1"
-  },
-  "dependencies": {
-    "chart.js": "^2.7.3"
-  },
-  "author": "Joren Broekema",
-  "license": "ISC"
+  }
 }
