@@ -27,12 +27,15 @@ header {
   float: left;
   display: flex;
   list-style: none;
-  padding: 35px 0 0 15px;
+  padding: 35px 0 0 15px; /* delete this */
+  /* padding-top: 35px; <-- add this */
+  /* width: 400px; <-- add this */ 
+  /* justify-content: space-evenly; <-- add this */
   margin: 0;
 }
 
 .list-item {
-  padding: 0 30px;
+  padding: 0 30px; /* delete */
   line-height: 25px;
 }
 
