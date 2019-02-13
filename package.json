@@ -1,0 +1,14 @@
+{
+  "name": "ProgrammingCourseYC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jorenbroekema/ProgrammingCourseYC.git",
+  "author": "Joren <joren.broekema@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "start": "http-server -o -c-1"
+  }
+}
