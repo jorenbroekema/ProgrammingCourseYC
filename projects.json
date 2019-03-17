@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Young Colfield Traineeship",
+      "description": "In this traineeship, I learned a lot about programming and becoming a professional software developer.",
+      "startDate": "1 July, 2018",
+      "endDate": "1 August, 2019",
+      "imageFile": "yc-internship.jpg"
+    },
+    {
+      "title": "Cooking",
+      "description": "In my spare time, I do a lot of cooking. One of my favorite dishes is a fresh and spicy Mexican tomato soup.",
+      "startDate": "26 November, 2017",
+      "endDate": "",
+      "imageFile": "cooking.jpg"
+    },
+    {
+      "title": "Art Through Code",
+      "description": "In the past, a big hobby of mine was making dynamic art using code. This way, you can do a lot with patterns and make them loop dynamically.",
+      "startDate": "1 March, 2016",
+      "endDate": "13 May, 2016",
+      "imageFile": "art.gif"
+    },
+    {
+      "title": "ING Bootcamp",
+      "description": "An onboarding bootcamp for ING engineers, to learn about the organization and the many programs that exist.",
+      "startDate": "1 November, 2018",
+      "endDate": "5 November, 2018",
+      "imageFile": "ing.jpg"
+    }
+  ]
+}
